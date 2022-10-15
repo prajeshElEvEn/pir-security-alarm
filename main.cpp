@@ -14,7 +14,9 @@ void setup()
 
 void loop()
 {
-    if (pirSensor)
+    int sensorValue = digitalRead(pirSensor);
+    if (sensorValue)
     {
+        buzzerMode = true;
     }
 }
