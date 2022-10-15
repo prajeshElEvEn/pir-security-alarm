@@ -1,15 +1,11 @@
 const int pirSensor = 7;
-const int ledPin = 6;
-const int buzzerPin = 5;
-const int buttonPin = 12;
-
-bool buzzerMode = false;
+const int buzzerPin = 6;
+const int ledPin = 5;
 
 void setup()
 {
+    pinMode(buzzerPin, OUTPUT);
     pinMode(ledPin, OUTPUT);
-    pinMode(buzzerMode, OUTPUT);
-    pinMode(buttonPin, INPUT);
 }
 
 void loop()
@@ -17,6 +13,12 @@ void loop()
     int sensorValue = digitalRead(pirSensor);
     if (sensorValue)
     {
-        buzzerMode = true;
+        tone(buzzerPin, 1000);
+        digitalWrite(ledPin, HIGH);
+    }
+    else
+    {
+        noTone(buzzerPin);
+        digitalWrite(ledPin, LOW);
     }
 }
