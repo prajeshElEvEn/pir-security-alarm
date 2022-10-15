@@ -12,3 +12,5 @@ This repository contains code for `PIR Sensor based Security Alarm` system using
 - Jumper Wires
 
 ## Circuit Diagram
+
+![Circuit Diagram](./assets/ckt_diagram.png?raw=true "circuit diagram")
