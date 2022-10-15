@@ -2,7 +2,7 @@
 
 Welcome to PIR Sensor based Security Alarm Systems documentation.
 
-## How PIR works?
+## How PIR sensor works?
 
 - PIR Sensor contains a pyroelectric sensor that generates energy when exposed to heat. Thus, the sensor absorbs energy from the heat emitted by the human body or an animal body in the form of infra-red radiation. Hence, the name PIR `Passive Infra-red` sensor.
 - The module also contains a cover known as  `Fresnel Lens` that focuses all the radiation onto the sensor.
