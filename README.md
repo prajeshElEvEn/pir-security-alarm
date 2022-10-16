@@ -12,6 +12,10 @@ Read [documentation](https://github.com/prajeshElEvEn/pir-security-alarm/blob/ma
 - 220 Ohm Resistor
 - Jumper Wires
 
+## Watch It In Action
+
+[Video](https://drive.google.com/file/d/1CD3BMV89rrPeiy98vIApIHzPLLkKp7xw/view?usp=sharing)
+
 ## References
 
 - [Arduino Project Hub](https://create.arduino.cc/projecthub/BEASTIDREES62/diy-homemade-pir-alarm-system-with-arduino-38e058)
